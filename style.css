@@ -1,0 +1,22 @@
+.bar-sony {
+	height: 35px;
+}
+
+.navigazione{
+    gap: 0 20px;
+}
+
+.navigazione2{
+    gap: 0 30px;
+}
+
+.fa-magnifying-glass{
+    font-size: 28px;
+    display: inline-block;
+}
+
+.accedi{
+    background-color: #363636;
+    color: white;
+    border-radius: 20px;
+}
