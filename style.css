@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 header{
     height: 111px;
 }
@@ -169,4 +173,11 @@ header{
 
 .globe{
     width: 25px;
+}
+
+.sie{
+    display: block;
+    width: 175px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
