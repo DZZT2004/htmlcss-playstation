@@ -215,3 +215,35 @@ header{
 .media{
     cursor: pointer;
 }
+
+.primo_gioco{
+    border: solid 2px white;
+    outline: 3px solid #0e79d1;
+}
+
+.gioco:hover{
+    position: relative;
+    transition: all 3s;
+    bottom: 13px;
+}
+
+.rule{
+    visibility: hidden;
+    width: 100%;
+}
+
+.carta{
+    opacity: 0.5;
+}
+
+.carta:hover .rule{
+    visibility: visible;
+}
+
+.carta:hover{
+    opacity: 1;
+}
+
+.carta-speciale{
+    opacity: 1;
+}
