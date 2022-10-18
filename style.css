@@ -26,6 +26,9 @@ header{
 .accedi{
     background-color: #363636;
     color: white;
+    width: 5rem;
+    height: 2.5rem;
+    border: none;
     border-radius: 20px;
 }
 
@@ -178,4 +181,37 @@ header{
     width: 175px;
     margin-top: 50px;
     margin-bottom: 25px;
+}
+
+.link{
+    color: #7a7a7a;
+}
+
+.link:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.accedi:hover, .informazioni:hover, .scopri:hover{
+    border: double 1px black;
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+.acquista:hover{
+    border: double 1px #cd3d0f;
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+
+.now_button:hover{
+    border: double 1px white;
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+
+.plus_button:hover{
+    width: 13.1rem;
+    height: 2.6rem;
+}
+
+.media{
+    cursor: pointer;
 }
